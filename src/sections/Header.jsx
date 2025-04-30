@@ -75,7 +75,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/public/images/xora.svg"
+                      src="/images/xora.svg"
                       width={160}
                       height={55}
                       alt="logo"
@@ -94,14 +94,14 @@ const Header = () => {
             h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90"
             >
               <img
-                src="/public/images/bg-outlines.svg"
+                src="/images/bg-outlines.svg"
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/public/images/bg-outlines-fill.png"
+                src="/images/bg-outlines-fill.png"
                 width={960}
                 height={380}
                 alt="outline"
@@ -117,7 +117,7 @@ const Header = () => {
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img
-            src={`/public/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`/images/${isOpen ? "close" : "magic"}.svg`}
             alt="magic"
             className="size-1/2 object-contain"
           />
