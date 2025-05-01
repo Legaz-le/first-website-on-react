@@ -13,7 +13,7 @@ const Testimonials = () => {
           <h3 className="h3 max-md:h5 text-p4">Words from our fans</h3>
         </div>
         <div
-          className="testimonials_inner-afer testimonials_inner-before
+          className="testimonials_inner-after testimonials_inner-before
         relative -my-12 -mr-3 flex items-start max-lg:static max-md:block"
         >
           <div className="testimonials_group-after flex-50">
@@ -30,7 +30,7 @@ const Testimonials = () => {
               <Testimonialitem
                 key={testimonial.id}
                 item={testimonial}
-                containerClassName="last:after:hidden after:right-auto after:left-0 afte:max-md:-left-4 md:px-12"
+                containerClassName="last:after:hidden after:right-auto after:left-0 after:max-md:-left-4 md:px-12"
               />
             ))}
           </div>
